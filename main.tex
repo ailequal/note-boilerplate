@@ -1,0 +1,45 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{minted}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usemintedstyle{vim}
+\usepackage{xcolor}
+\definecolor{CodeBackground}{HTML}{6B7280}
+
+\title{Note Boilerplate}
+\author{ailequal}
+\date{November 2021}
+
+% start
+% =====
+\begin{document}
+
+\maketitle
+\clearpage
+
+% table of contents
+% =================
+\tableofcontents
+\clearpage
+
+% introduction
+% ============
+\input{sections/introduction}
+
+% space
+% =====
+\input{sections/space}
+
+% kitty
+% =====
+\input{sections/kitty}
+
+% code
+% ====
+\input{sections/code}
+
+% end
+% ===
+\end{document}
